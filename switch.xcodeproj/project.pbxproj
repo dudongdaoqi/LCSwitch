@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B29CA1A185C0A1D008DEBF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B29CA19185C0A1D008DEBF7 /* UIKit.framework */; };
+		4B29CA1C185C0A1D008DEBF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B29CA1B185C0A1D008DEBF7 /* Foundation.framework */; };
+		4B29CA1E185C0A1D008DEBF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B29CA1D185C0A1D008DEBF7 /* CoreGraphics.framework */; };
+		4B29CA24185C0A1D008DEBF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B29CA22185C0A1D008DEBF7 /* InfoPlist.strings */; };
+		4B29CA26185C0A1D008DEBF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B29CA25185C0A1D008DEBF7 /* main.m */; };
+		4B29CA2A185C0A1D008DEBF7 /* SrollViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B29CA29185C0A1D008DEBF7 /* SrollViewAppDelegate.m */; };
+		4B29CA2C185C0A1D008DEBF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B29CA2B185C0A1D008DEBF7 /* Default.png */; };
+		4B29CA2E185C0A1D008DEBF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B29CA2D185C0A1D008DEBF7 /* Default@2x.png */; };
+		4B29CA30185C0A1D008DEBF7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B29CA2F185C0A1D008DEBF7 /* Default-568h@2x.png */; };
+		4B29CA38185C0A2F008DEBF7 /* switchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B29CA37185C0A2F008DEBF7 /* switchViewController.m */; };
+		4B4792D5188E1C4700BD4E47 /* LCSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4792D4188E1C4700BD4E47 /* LCSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B29CA16185C0A1D008DEBF7 /* switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B29CA19185C0A1D008DEBF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B29CA1B185C0A1D008DEBF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B29CA1D185C0A1D008DEBF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B29CA21185C0A1D008DEBF7 /* switch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "switch-Info.plist"; sourceTree = "<group>"; };
+		4B29CA23185C0A1D008DEBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B29CA25185C0A1D008DEBF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B29CA27185C0A1D008DEBF7 /* switch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "switch-Prefix.pch"; sourceTree = "<group>"; };
+		4B29CA28185C0A1D008DEBF7 /* SrollViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SrollViewAppDelegate.h; sourceTree = "<group>"; };
+		4B29CA29185C0A1D008DEBF7 /* SrollViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SrollViewAppDelegate.m; sourceTree = "<group>"; };
+		4B29CA2B185C0A1D008DEBF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4B29CA2D185C0A1D008DEBF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4B29CA2F185C0A1D008DEBF7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B29CA36185C0A2F008DEBF7 /* switchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switchViewController.h; sourceTree = "<group>"; };
+		4B29CA37185C0A2F008DEBF7 /* switchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = switchViewController.m; sourceTree = "<group>"; };
+		4B4792D3188E1C4700BD4E47 /* LCSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCSwitch.h; sourceTree = "<group>"; };
+		4B4792D4188E1C4700BD4E47 /* LCSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B29CA13185C0A1D008DEBF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B29CA1A185C0A1D008DEBF7 /* UIKit.framework in Frameworks */,
+				4B29CA1C185C0A1D008DEBF7 /* Foundation.framework in Frameworks */,
+				4B29CA1E185C0A1D008DEBF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B29CA0D185C0A1D008DEBF7 = {
+			isa = PBXGroup;
+			children = (
+				4B29CA1F185C0A1D008DEBF7 /* switch */,
+				4B29CA18185C0A1D008DEBF7 /* Frameworks */,
+				4B29CA17185C0A1D008DEBF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B29CA17185C0A1D008DEBF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B29CA16185C0A1D008DEBF7 /* switch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B29CA18185C0A1D008DEBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B29CA19185C0A1D008DEBF7 /* UIKit.framework */,
+				4B29CA1B185C0A1D008DEBF7 /* Foundation.framework */,
+				4B29CA1D185C0A1D008DEBF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B29CA1F185C0A1D008DEBF7 /* switch */ = {
+			isa = PBXGroup;
+			children = (
+				4B29CA28185C0A1D008DEBF7 /* SrollViewAppDelegate.h */,
+				4B29CA29185C0A1D008DEBF7 /* SrollViewAppDelegate.m */,
+				4B29CA36185C0A2F008DEBF7 /* switchViewController.h */,
+				4B29CA37185C0A2F008DEBF7 /* switchViewController.m */,
+				4B4792D2188E1C4700BD4E47 /* LCSwitch */,
+				4B29CA20185C0A1D008DEBF7 /* Supporting Files */,
+			);
+			path = switch;
+			sourceTree = "<group>";
+		};
+		4B29CA20185C0A1D008DEBF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B29CA21185C0A1D008DEBF7 /* switch-Info.plist */,
+				4B29CA22185C0A1D008DEBF7 /* InfoPlist.strings */,
+				4B29CA25185C0A1D008DEBF7 /* main.m */,
+				4B29CA27185C0A1D008DEBF7 /* switch-Prefix.pch */,
+				4B29CA2B185C0A1D008DEBF7 /* Default.png */,
+				4B29CA2D185C0A1D008DEBF7 /* Default@2x.png */,
+				4B29CA2F185C0A1D008DEBF7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B4792D2188E1C4700BD4E47 /* LCSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4B4792D3188E1C4700BD4E47 /* LCSwitch.h */,
+				4B4792D4188E1C4700BD4E47 /* LCSwitch.m */,
+			);
+			path = LCSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B29CA15185C0A1D008DEBF7 /* switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B29CA33185C0A1D008DEBF7 /* Build configuration list for PBXNativeTarget "switch" */;
+			buildPhases = (
+				4B29CA12185C0A1D008DEBF7 /* Sources */,
+				4B29CA13185C0A1D008DEBF7 /* Frameworks */,
+				4B29CA14185C0A1D008DEBF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switch;
+			productName = switch;
+			productReference = 4B29CA16185C0A1D008DEBF7 /* switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B29CA0E185C0A1D008DEBF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SrollView;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = lc;
+			};
+			buildConfigurationList = 4B29CA11185C0A1D008DEBF7 /* Build configuration list for PBXProject "switch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B29CA0D185C0A1D008DEBF7;
+			productRefGroup = 4B29CA17185C0A1D008DEBF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B29CA15185C0A1D008DEBF7 /* switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B29CA14185C0A1D008DEBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B29CA24185C0A1D008DEBF7 /* InfoPlist.strings in Resources */,
+				4B29CA2C185C0A1D008DEBF7 /* Default.png in Resources */,
+				4B29CA2E185C0A1D008DEBF7 /* Default@2x.png in Resources */,
+				4B29CA30185C0A1D008DEBF7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B29CA12185C0A1D008DEBF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B29CA26185C0A1D008DEBF7 /* main.m in Sources */,
+				4B29CA2A185C0A1D008DEBF7 /* SrollViewAppDelegate.m in Sources */,
+				4B29CA38185C0A2F008DEBF7 /* switchViewController.m in Sources */,
+				4B4792D5188E1C4700BD4E47 /* LCSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B29CA22185C0A1D008DEBF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B29CA23185C0A1D008DEBF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B29CA31185C0A1D008DEBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B29CA32185C0A1D008DEBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B29CA34185C0A1D008DEBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switch/switch-Prefix.pch";
+				INFOPLIST_FILE = "switch/switch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B29CA35185C0A1D008DEBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "switch/switch-Prefix.pch";
+				INFOPLIST_FILE = "switch/switch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B29CA11185C0A1D008DEBF7 /* Build configuration list for PBXProject "switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B29CA31185C0A1D008DEBF7 /* Debug */,
+				4B29CA32185C0A1D008DEBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B29CA33185C0A1D008DEBF7 /* Build configuration list for PBXNativeTarget "switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B29CA34185C0A1D008DEBF7 /* Debug */,
+				4B29CA35185C0A1D008DEBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B29CA0E185C0A1D008DEBF7 /* Project object */;
+}
